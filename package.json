@@ -1,0 +1,32 @@
+{
+  "name": "logtrace",
+  "version": "0.1.0",
+  "description": "console like stdout/stderr node.js logger with timestamp, log level, file and line numbers",
+  "main": "logtrace.js",
+  "scripts": {
+    "test": "mocha test/**.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nherment/logtrace.git"
+  },
+  "keywords": [
+    "logger",
+    "trace",
+    "line",
+    "number",
+    "file",
+    "name",
+    "stdout",
+    "stderr"
+  ],
+  "author": "Nicolas Herment <nherment@arkhaios.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nherment/logtrace/issues"
+  },
+  "homepage": "https://github.com/nherment/logtrace#readme",
+  "devDependencies": {
+    "mocha": "2.5.3"
+  }
+}
